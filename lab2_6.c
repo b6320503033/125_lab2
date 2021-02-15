@@ -2,13 +2,10 @@
 
 int main()
 {
-    int N[50];
+    int N;
     int i;
 
-    for(i=0; i<50; i++)
-    {
-        scanf("%d",&N[i]);
-    }
+    scanf("%d",&N);
 
     for(i=0; i<strlen(N); i++)
     {
